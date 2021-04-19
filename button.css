@@ -1,0 +1,15 @@
+#search {
+  height: 30px;
+  width: 270px;
+  border-color: #ff0000;
+  border-radius: 5px;
+  padding: 0px 30px 0px 15px;
+}
+
+#searchButton {
+  height: 30px;
+  width: 90px;
+  background-color: #008000;
+  border-radius: 5px;
+  text-align: center;
+}
