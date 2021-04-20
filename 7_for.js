@@ -1,14 +1,16 @@
 var clickButton = document.getElementById('clickButton');
 clickButton.addEventListener("click", alertMaxNum);
 
-var maxNum= [1,3,10,20,15,99,888];
+var arrayOfNumbers= [1,3,10,100000,15,99,888];
 
 
   function alertMaxNum() {
-   for(let i=1; i<maxNum.length; i++) {
-     if(maxNum[i] > maxNum[0]) {
-       alertMaxNum = maxNum[i];
-     }
-    }
-    alert(alertMaxNum);
-}
+    let maxNum = [0];
+   for (let i = 0; i < arrayOfNumbers.length; i++) {
+     if (arrayOfNumbers[i] > maxNum) {
+       maxNum = arrayOfNumbers[i];
+     };
+    };
+    return maxNum;
+};
+alert( alertMaxNum() );

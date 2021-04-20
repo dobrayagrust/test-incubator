@@ -3,9 +3,9 @@ var clickButton = document.getElementById('clickButton');
 clickButton.addEventListener("click", findMax);
 
 function findMax() {
-   var arrayLenght = 7;
-   var array = []; // создаем массив
-   for (var i=0; i < arrayLenght; i++) {
+   var arrayLength = 7;
+   var array = [];
+   for (var i = 0; i < arrayLength; i++) {
        array[i] = prompt();
        if (array[i] === null) {
            alert('Отмена');
