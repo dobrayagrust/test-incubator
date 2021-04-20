@@ -1,6 +1,10 @@
-    var value1 = (prompt ("Введите что-нибудь"));
-    var value2 = (prompt ("ВВедите что-нибудь"));
-      function superSum() {
-        return (value1 + value2);
-      }
-      alert(value1 + value2);
+
+
+function superSum(number1, number2) {
+  var number1 = Number(prompt ("Введите что-нибудь"));
+  var number2 = Number(prompt ("Введите что-нибудь"));
+  return number1 + number2;
+}
+
+let result = superSum();
+alert( result );
