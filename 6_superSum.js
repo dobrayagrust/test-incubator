@@ -1,3 +1,4 @@
+var result = superSum();
 
 
 function superSum(number1, number2) {
@@ -5,6 +6,4 @@ function superSum(number1, number2) {
   var number2 = Number(prompt ("Введите что-нибудь"));
   return number1 + number2;
 }
-
-let result = superSum();
-alert( result );
+alert(result);
